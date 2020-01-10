@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Personas de la Api rest- "reqres.in"</h1>
+  <hr>
+      <div *ngFor="let use of user" >  
+          <img src="{{use.avatar}}">
+          <h1>{{use.first_name}} {{use.last_name}}</h1>
+          <h2>Descripcion de su trabajo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloribus quae illum, voluptatibus rerum reiciendis, repellat minima quidem vel blanditiis
+               hic tempora ab earum deserunt ullam! Odit eos nisi atque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugiat esse incidunt autem quibusdam voluptas similique temporibus voluptates veritatis quia impedit,
+               excepturi ea tenetur magni facere exercitationem? Eius, eaque unde?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia rem modi. Odit dignissimos consequuntur animi perspiciatis quis ducimus officiis. Eum expedita
+                 modi error quas deserunt sint, nihil neque voluptatibus.
+              </p>
+          <hr>
+      </div>
+</body>
+</html>
